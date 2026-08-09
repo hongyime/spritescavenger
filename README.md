@@ -108,3 +108,7 @@ npm run build
 - `src/components/`: Reusable UI components (CollectionGrid, Forge, BiomeSelector, etc.).
 - `src/data/biomes.ts`: Configuration for unlockable regions.
 - `src/data/master-collection.json`: The database of all collectable items.
+
+## License
+
+Apache-2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
