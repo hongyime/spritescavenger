@@ -40,9 +40,28 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+templates/
+.env
+.env.*
+node_modules/
+.venv/
+venv/
+dist/
+build/
+.next/
+coverage/
+__pycache__/
+.pytest_cache/
+
 # AI / editor dot directories (managed via sourcerepo)
 .*
 !.github/
+!.agents/
+.agents/*
+!.agents/STATE.md
+!.agents/JOURNAL.md
+!.agents/handoffs/
+!.agents/handoffs/**
 !.gitignore
 !.gitattributes
 !.gitmodules
@@ -68,15 +87,4 @@ next-env.d.ts
 skills/
 skills-lock.json
 docs/
-templates/
-.env
-.env.*
-node_modules/
-.venv/
-venv/
-dist/
-build/
-.next/
-coverage/
-__pycache__/
-.pytest_cache/
+# End AI / editor dot directories (managed via sourcerepo)
