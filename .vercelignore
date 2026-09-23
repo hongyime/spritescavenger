@@ -1,0 +1,15 @@
+.agents/
+.github/
+.deepsource.toml
+.sourcery.yml
+.gitattributes
+pre/
+lint_report.json
+last_sync.txt
+vitest.config.ts
+AGENTS.md
+CONTRIBUTING.md
+SECURITY.md
+NOTICE
+LICENSE
+README.md
